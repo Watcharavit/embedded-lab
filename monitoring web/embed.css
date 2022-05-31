@@ -1,0 +1,85 @@
+body
+{
+  font-family: sans-serif;
+  background: #cccccc;
+}
+h1 {
+  margin-top: -25px;
+  font-size: 20px;
+  margin-left: 2px;
+}
+h2 {
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+.grid-item {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.box1 {
+  font-size: 1.8rem;
+  background: rgb(255, 0, 0);
+  border-color: rgb(107, 107, 107);
+  color: rgb(255, 255, 255);
+  padding: 15px 40px;
+  border-radius: 10px;
+  /* margin-left: -10px; */
+  top: -40px;
+  left: -20px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+.box2 {
+  font-size: 1.8rem;
+  background: rgb(255, 0, 0);
+  border-color: rgb(107, 107, 107);
+  color: rgb(255, 255, 255);
+  padding: 15px 40px;
+  border-radius: 10px;
+  top: -40px;
+  left: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+.box1.press{
+  background: rgb(0, 153, 0);
+}
+.box2.press{
+  background: rgb(0, 153, 0);
+}
+/* 
+#count_panel {
+  grid-area: count_panel_area;
+}
+
+#button_panel {
+  grid-area: button_panel_area;
+}
+
+#button_box {
+  width: 180px;
+}
+ */
+
+.grid-item .people {
+  position: relative;
+  width: calc(270px - 120px);
+  height: calc(270px - 120px);
+  background: rgba(163, 163, 163, 0.205);
+  float: middle;
+  top: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10%;
+} 
